@@ -111,6 +111,23 @@ article div img {
   padding: 10px;
 }
 
+footer {
+  background-color: rgba(249, 228, 183, 0.3);
+  padding: 30px;
+  text-align: center;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  padding: 30px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #192841;
+  font-size: 40px;
+}
+
 * {
   margin: 0;
   padding: 0;
