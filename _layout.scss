@@ -5,5 +5,32 @@
 }
 
 body {
-    background-color: $color-white;
+    background-color: #663399;
+    font-family: $font-body;
+
+    div {
+        width: 100%;
+        background-color: $color-white;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    #container {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #container {
+        width: 70%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    #container {
+        width: 60%;
+        margin: auto;
+    }
 }
