@@ -1,7 +1,6 @@
 nav {
-    padding-top: 15px;
     display: flex;
-    height: 25vh;
+    height: 30vh;
     justify-content: space-between;
     align-items: center;
     padding: 40px;
@@ -34,5 +33,26 @@ nav {
     a:link,
     a:visited {
         text-decoration: none;
+    }
+}
+
+header {
+    color: $color-header-blue;
+    font-family: $font-header;
+    margin: auto;
+    font-size: 35px;
+    padding: 0px 70px 30px 70px;
+    margin: 30px;
+    text-align: center;
+}
+
+#main-image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    img {
+        height: 800px;
+        width: auto;
     }
 }

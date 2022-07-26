@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Acme&family=Roboto&display=swap");
 nav {
-  padding-top: 15px;
   display: flex;
-  height: 25vh;
+  height: 30vh;
   justify-content: space-between;
   align-items: center;
   padding: 40px;
@@ -31,6 +30,26 @@ nav a {
 nav a:link,
 nav a:visited {
   text-decoration: none;
+}
+
+header {
+  color: #008ecc;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  margin: auto;
+  font-size: 35px;
+  padding: 0px 70px 30px 70px;
+  margin: 30px;
+  text-align: center;
+}
+
+#main-image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+#main-image-container img {
+  height: 800px;
+  width: auto;
 }
 
 * {
