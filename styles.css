@@ -1,5 +1,33 @@
+nav {
+  display: flex;
+  height: 25vh;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "comic-sans", "arial";
+  border: 1px black solid;
+  padding: 40px;
+}
+nav div {
+  display: flex;
+  align-items: center;
+}
+nav div img {
+  padding: 10px;
+}
+nav div h1 {
+  font-size: 60px;
+}
+nav a:link,
+nav a:visited {
+  text-decoration: none;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
 }
